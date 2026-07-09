@@ -1,0 +1,17 @@
+.timeline-section {
+    margin-top: 100px;
+}
+
+.timeline-section-text-1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.timeline-section-text-2 {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
