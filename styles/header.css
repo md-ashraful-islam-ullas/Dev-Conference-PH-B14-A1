@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.middle-section {
+    display: flex;
+    gap: 40px;
+}
+
+.register-now {
+    width: 188px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(29, 78, 216);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+header p {
+    cursor: pointer;
+    color: rgb(87, 87, 87);
+}
