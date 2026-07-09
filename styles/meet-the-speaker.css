@@ -1,0 +1,62 @@
+.meet-speak {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 60px;
+}
+
+.speaker-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.person {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.card-text {
+    text-align: left;
+    padding: 20px 24px;
+}
+
+.each-card {
+    border: 1px solid;
+    color: rgb(229, 231, 235);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    width: 650px;
+}
+
+.each-card p {
+    padding-bottom: 10px;
+}
+
+.topic {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.name {
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.company {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+}
