@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/banner.css" />
-    <link rel="stylesheet" href="./styles/meet-the-speaker.css">
+    <link rel="stylesheet" href="./styles/meet-the-speaker.css" />
+    <link rel="stylesheet" href="./styles/pricing-section.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,56 +37,176 @@
       <div class="hero-content">
         <p class="hero-content-text-1">Code. <em>Connect.</em> Create.</p>
 
-        <p class="hero-content-text-2">Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
+        <p class="hero-content-text-2">
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks, hands-on
+          workshops, and meaningful connections.
+        </p>
 
         <button class="register-now-big">Register Now</button>
       </div>
     </section>
 
     <div class="speaker-section">
-        <p class="meet-speak">Meet the Speakers</p>
+      <p class="meet-speak">Meet the Speakers</p>
 
-        <div class="speaker-grid">
-
-            <div class="each-card">
-                <img class="person" src="./assets/andrej.png" alt="">
-                <div class="card-text">
-                    <p class="topic">AI / ML</p>
-                    <p class="name">Andrej Karpathy</p>
-                    <p class="company">Pretraining team, Anthropic</p>
-                </div>
-            </div>
-
-
-            <div class="each-card">
-                <img class="person" src="./assets/demis.png" alt="">
-                <div class="card-text">
-                    <p class="topic">CLOUD & DEVOPS</p>
-                    <p class="name">Demis Hassabis</p>
-                    <p class="company">Co-Founder and CEO, Google DeepMind</p>
-                </div>
-            </div>
-
-
-            <div class="each-card">
-                <img class="person" src="./assets/gary.png" alt="">
-                <div class="card-text">
-                    <p class="topic">FRONTEND</p>
-                    <p class="name">Gary Marcus</p>
-                    <p class="company">Staff Engineer, Vercel</p>
-                </div>
-            </div>
-            
-            <div class="each-card">
-                <img class="person" src="./assets/mustafa.png" alt="">
-                <div class="card-text">
-                    <p class="topic">SECURITY</p>
-                    <p class="name">Mustafa Suleyman</p>
-                    <p class="company">CEO of Microsoft AI</p>
-                </div>
-            </div>
+      <div class="speaker-grid">
+        <div class="each-card">
+          <img class="person" src="./assets/andrej.png" alt="" />
+          <div class="card-text">
+            <p class="topic">AI / ML</p>
+            <p class="name">Andrej Karpathy</p>
+            <p class="company">Pretraining team, Anthropic</p>
+          </div>
         </div>
+
+        <div class="each-card">
+          <img class="person" src="./assets/demis.png" alt="" />
+          <div class="card-text">
+            <p class="topic">CLOUD & DEVOPS</p>
+            <p class="name">Demis Hassabis</p>
+            <p class="company">Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+
+        <div class="each-card">
+          <img class="person" src="./assets/gary.png" alt="" />
+          <div class="card-text">
+            <p class="topic">FRONTEND</p>
+            <p class="name">Gary Marcus</p>
+            <p class="company">Staff Engineer, Vercel</p>
+          </div>
+        </div>
+
+        <div class="each-card">
+          <img class="person" src="./assets/mustafa.png" alt="" />
+          <div class="card-text">
+            <p class="topic">SECURITY</p>
+            <p class="name">Mustafa Suleyman</p>
+            <p class="company">CEO of Microsoft AI</p>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <section class="pricing-section">
+      <p class="pricing-section-text-1">Secure Your Spot</p>
+      <p class="pricing-section-text-2">
+        Early-bird pricing ends August 15, 2026.
+      </p>
+
+      <div class="pricing-model">
+        <div class="standard">
+          <p class="model">STANDARD</p>
+          <p class="price">$30</p>
+          <p class="range">Per Person</p>
+
+          <div class="line"></div>
+
+          <div class="pricing-model-feature">
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Access to all 3 conference days</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>48 curated technical talks</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>2 workshop sessions</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Networking lunch & coffee breaks</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Conference swag bag</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Digital recordings (30 days)</p>
+            </div>
+          </div>
+
+          <button class="card-button">Get Standard</button>
+        </div>
+
+        <div class="pro">
+          <p class="model">PRO</p>
+          <p class="price">$99</p>
+          <p class="range">Per Person</p>
+
+          <div class="line"></div>
+
+          <div class="pricing-model-feature">
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Everything in Standard</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Unlimited workshop access</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Speaker meet & greet</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>VIP networking dinner</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Lifetime recording access</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>1-on-1 mentorship (30 min)</p>
+            </div>
+          </div>
+
+          <button class="card-button">Get Pro</button>
+        </div>
+
+        <div class="team">
+          <p class="model">TEAM</p>
+          <p class="price">$200</p>
+          <p class="range">Up to 10 People</p>
+
+          <div class="line"></div>
+
+          <div class="pricing-model-feature">
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Everything in Pro (10 seats)</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Dedicated team lounge access</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Private workshop booking</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Company logo on event page</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Recruitment booth (1 day)</p>
+            </div>
+            <div class="pricing-model-feature-text">
+              <div class="blue-dot"></div>
+              <p>Priority customer support</p>
+            </div>
+          </div>
+
+          <button class="card-button">Get Team</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

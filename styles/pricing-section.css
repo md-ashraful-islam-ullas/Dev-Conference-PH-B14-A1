@@ -1,0 +1,120 @@
+.pricing-model {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.pricing-section-text-1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-section-text-2 {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pricing-model-feature-text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+.pricing-model-feature-text p {
+    color: #333333;
+    font-size: 14px;
+}
+
+.pro .pricing-model-feature-text p {
+    color: #FFFFFF;
+}
+
+.blue-dot {
+    background-color: #2563EB;
+    height: 5px;
+    width: 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.model {
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.pro .model {
+    color: #93C5FD;
+}
+
+.price {
+    font-size: 44px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.pro .price {
+    color: white;
+}
+
+.range {
+    color: #888888;
+    font-size: 13px;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+
+.pro .line {
+    border-color: #FFFFFF;
+}
+
+.pricing-model-feature {
+    padding-top: 20px;
+}
+
+.standard, .pro, .team {
+    height: 420px;
+    width: 350px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card-button {
+    border: solid;
+    border-width: 1px;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #2563EB;
+    color: #2563EB;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pro .card-button {
+    background-color: #2563EB;
+    color: white;
+}
+
+.pro {
+    background-color: #0D1B2A;
+}
+
+
+
