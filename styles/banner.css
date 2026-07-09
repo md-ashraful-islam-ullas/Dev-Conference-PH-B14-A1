@@ -1,0 +1,41 @@
+.hero {
+  height: 790px;
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0) 70%),
+    url(../assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-content {
+    color: white;
+}
+
+.hero-content-text-1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content-text-2 {
+    font-size: 22px;
+    width: 840px;
+    margin-bottom: 270px;
+}
+
+.register-now-big {
+    width: 282px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(29, 78, 216);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

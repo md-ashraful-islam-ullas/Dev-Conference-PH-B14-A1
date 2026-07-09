@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1500px;
-    margin: 20px auto;
+    margin: 25px auto;
     align-items: center;
 }
 
@@ -20,6 +20,7 @@
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 header p {
